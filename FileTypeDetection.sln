@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{189FB9E0-A2B7-4271-B1A5-BE08A360F80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82CAD470-D0BD-495D-9FEF-7255CD5BD655}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection", "src\AspNetCore.FileTypeDetection\AspNetCore.FileTypeDetection.xproj", "{70506F74-5A2A-476C-9C25-621FFD7BC8E3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FileTypeDetectionSample", "samples\FileTypeDetectionSample\FileTypeDetectionSample.xproj", "{279D919B-41ED-42F0-B55B-38E4008B0B93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E0CAF6BA-4744-41C9-8C50-8EC767468F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{13E8CCFB-7ED4-43E7-8721-56F8E141C281}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.Tests", "test\AspNetCore.FileTypeDetection.Tests\AspNetCore.FileTypeDetection.Tests.xproj", "{2134F809-C1A1-4870-BE26-22AFBA8EF412}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.Abstractions", "src\AspNetCore.FileTypeDetection.Abstractions\AspNetCore.FileTypeDetection.Abstractions.xproj", "{BED49570-CD2E-4817-B30E-20ACDA2743AD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.Office", "src\AspNetCore.FileTypeDetection.Office\AspNetCore.FileTypeDetection.Office.xproj", "{FA6D2A7F-82B9-473C-98D9-5D13C984084F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.Pdf", "src\AspNetCore.FileTypeDetection.Pdf\AspNetCore.FileTypeDetection.Pdf.xproj", "{79069EB1-A407-4607-B080-132414F47F08}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.OpenDocument", "src\AspNetCore.FileTypeDetection.OpenDocument\AspNetCore.FileTypeDetection.OpenDocument.xproj", "{AE96132D-B7B0-4163-ADE6-374DD62E7862}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore.FileTypeDetection.Office.Images", "src\AspNetCore.FileTypeDetection.Office.Images\AspNetCore.FileTypeDetection.Office.Images.xproj", "{D575B84D-024A-40F0-8A22-64155F47D995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70506F74-5A2A-476C-9C25-621FFD7BC8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70506F74-5A2A-476C-9C25-621FFD7BC8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70506F74-5A2A-476C-9C25-621FFD7BC8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70506F74-5A2A-476C-9C25-621FFD7BC8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279D919B-41ED-42F0-B55B-38E4008B0B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279D919B-41ED-42F0-B55B-38E4008B0B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279D919B-41ED-42F0-B55B-38E4008B0B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279D919B-41ED-42F0-B55B-38E4008B0B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2134F809-C1A1-4870-BE26-22AFBA8EF412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2134F809-C1A1-4870-BE26-22AFBA8EF412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2134F809-C1A1-4870-BE26-22AFBA8EF412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2134F809-C1A1-4870-BE26-22AFBA8EF412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED49570-CD2E-4817-B30E-20ACDA2743AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED49570-CD2E-4817-B30E-20ACDA2743AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED49570-CD2E-4817-B30E-20ACDA2743AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED49570-CD2E-4817-B30E-20ACDA2743AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6D2A7F-82B9-473C-98D9-5D13C984084F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6D2A7F-82B9-473C-98D9-5D13C984084F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6D2A7F-82B9-473C-98D9-5D13C984084F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6D2A7F-82B9-473C-98D9-5D13C984084F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79069EB1-A407-4607-B080-132414F47F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79069EB1-A407-4607-B080-132414F47F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79069EB1-A407-4607-B080-132414F47F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79069EB1-A407-4607-B080-132414F47F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE96132D-B7B0-4163-ADE6-374DD62E7862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE96132D-B7B0-4163-ADE6-374DD62E7862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE96132D-B7B0-4163-ADE6-374DD62E7862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE96132D-B7B0-4163-ADE6-374DD62E7862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D575B84D-024A-40F0-8A22-64155F47D995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D575B84D-024A-40F0-8A22-64155F47D995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D575B84D-024A-40F0-8A22-64155F47D995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D575B84D-024A-40F0-8A22-64155F47D995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70506F74-5A2A-476C-9C25-621FFD7BC8E3} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+		{279D919B-41ED-42F0-B55B-38E4008B0B93} = {E0CAF6BA-4744-41C9-8C50-8EC767468F06}
+		{2134F809-C1A1-4870-BE26-22AFBA8EF412} = {13E8CCFB-7ED4-43E7-8721-56F8E141C281}
+		{BED49570-CD2E-4817-B30E-20ACDA2743AD} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+		{FA6D2A7F-82B9-473C-98D9-5D13C984084F} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+		{79069EB1-A407-4607-B080-132414F47F08} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+		{AE96132D-B7B0-4163-ADE6-374DD62E7862} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+		{D575B84D-024A-40F0-8A22-64155F47D995} = {189FB9E0-A2B7-4271-B1A5-BE08A360F80C}
+	EndGlobalSection
+EndGlobal

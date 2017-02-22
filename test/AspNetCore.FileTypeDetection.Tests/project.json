@@ -1,0 +1,25 @@
+﻿{
+  "buildOptions": {
+    "warningsAsErrors": true,
+  },
+  "dependencies": {
+    "Microsoft.Extensions.DependencyInjection": "1.1.0",
+    "AspNetCore.FileTypeDetection": "1.0.0",
+    "AspNetCore.FileTypeDetection.Office": "1.0.0",
+    "AspNetCore.FileTypeDetection.Pdf": "1.0.0",
+    "AspNetCore.FileTypeDetection.OpenDocument": "1.0.0",
+    "dotnet-test-xunit": "2.2.0-*",
+    "xunit": "2.2.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0-*",
+          "type": "platform"
+        }
+      }
+    }
+  },
+  "testRunner": "xunit"
+}
